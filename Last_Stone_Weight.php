@@ -19,8 +19,8 @@ function stoneWeight(){
 
         // $a = array_rand($stones);
         // $b = array_rand($stones);
-        $a = $stones[1];
-        $b = $stones[1];
+        $a = array_rand(array_keys($stones));
+        $b = 
 
         $dataA = $a;
         $dataB = $b;
@@ -29,17 +29,9 @@ function stoneWeight(){
         $key = array_search($dataA, array_keys($stones), true);
         $key2 = array_search($dataB, array_keys($stones),true);
         return $data;
-        // if ($dataA == $dataB) {
-        //     //
-        //     if($key != $key2){
-        //         // unset($stones[$key], $stones[$key2]);
-        //         $stones = array_values($stones);
-        //         // return $stones;
-        //         return "hai";
-        //     };
-        // };
+        
     
     };
 }
-echo stoneWeight();
+print_r(stoneWeight());
 ?>
