@@ -1,1 +1,1 @@
-{"version":1,"defects":{"Tests\\PalindromeNumberTest::test_palindrom":7},"times":{"Tests\\PalindromeNumberTest::test_palindrom":0.006}}
+{"version":1,"defects":{"Tests\\PalindromeNumberTest::test_palindrom":7,"Tests\\RomanToIntegerTest::test":7},"times":{"Tests\\PalindromeNumberTest::test_palindrom":0.006,"Tests\\RomanToIntegerTest::test":0.003}}
