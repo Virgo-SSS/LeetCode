@@ -20,7 +20,7 @@ class MedianOfTwoSortedArrays
      * Output: 2.50000
      * Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
      */
-    public function findMedianSortedArrays($nums1, $nums2): float
+    public function findMedianSortedArrays(array $nums1, array $nums2): float
     {
         $mergedArray = array_merge($nums1, $nums2);
         sort($mergedArray);
